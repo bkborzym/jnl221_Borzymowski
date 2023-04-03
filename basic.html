@@ -1,0 +1,159 @@
+<!-- Complete this worksheet in HTML and CSS. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on HTML tags and CSS. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+        
+            p {
+                color: #5A5A5A;
+                font-size: 16px;
+                font-family: 'Open Sans', serif;
+                width: 50%;
+            }
+            #quote {
+                color: gray;
+            }
+
+            #bargraph {
+                border: 1px solid gray;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                width: 25%;
+            }
+            .bar_label {
+                color: red;
+            }
+            #longest {
+                width: 300px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #longer {
+                height: 10px;
+                width: 150px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #long {
+                height: 10px;
+                width: 36px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #books {
+                height: 60px;
+                border: 2px solid limegreen;
+                width: 20%;
+
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <h1>A little bit about me!</h1>
+        
+        <h2>My intro</h2>
+
+
+        <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+          <p>My name is <strong>Brooke Borzymowski</strong>, and I am a sophomore Broadcast and Digital Journalism major at Syracuse University.  I am from <i>Fallston, Maryland</i>, where I live with my mom, dad, sister, and dog.  My sister <strong>Rachel</strong> is a senior at Boston University, where she majors in Biology and minors in Art and Psychology.  We both play field hockey at our respective schools, however I am a goalie and she is a defender.  My dog <strong>Stanley</strong> is a two-year-old sheepadoodle, and I am pretty sure he is my mom's favorite child!
+
+        <p>For fun, I like to go to my family's beach house in <i>Rehoboth Beach, Delaware</i>.  At the beach, I swim, paddleboard, boogieboard, and hang out with my family!  When I am not at the beach, I love going to the movie theater and seeing all the latest blockbusters on the big screen.  Most of all, I love spending time with my family, so anything with them is my activity of choice!
+        <!-- Tags to use: <p>, <strong>, <i> -->
+        
+
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts -->
+            <p> Instagram: <a href="https://www.instagram.com/brookeborzy88/">@brookeborzy88</a>
+            <p> Twitter: <a href="https://twitter.com/brookeborzy88">@brookeborzy88</a>
+        <!-- Tags to use: <p>, <a> -->
+
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
+        <p>My text is gray.</p>
+
+
+        <h2>My favorite meme</h2>
+        <!-- Include: "large_wink.png" as an image -->
+        <!-- Tags to use: <img> -->
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+        <img src= "large_wink.png" alt="a photo of Kathryn Hahn winking as Agatha Harkness in Wandavision as a meme" height="300px" width="400px">
+
+    
+        <h2>Why I'm a great student</h2>
+        <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
+        <!-- Tags to use: <ul>, <li>, <strong> -->
+        <ul> 
+            <li>I am hardworking.</li>
+            <li>I follow directions well.</li>
+            <li>Most importantly, <strong>my mom told me I am.</strong></li>
+
+
+        <h2>Top 3 most famous people from my hometown</h2>
+        <!-- Include: an ordered list -->
+        <!-- Tags to use: <ol>, <li>, <a> -->
+            <h4> My actual hometown in Fallston, MD, but since Fallston is so small, I will be using Baltimore, MD.</h4>
+        <ol>
+            <li> Michael Phelps</li>
+            <li>Babe Ruth</li>
+            <li>Frank Vincent Zappa</li>
+        Source: <a href="https://www.discoverwalks.com/blog/">Discover Walks Blog</a> 
+
+
+        <h2> ~ Challenge: Read my poetry ~</h2>
+        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+        <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
+            <p> I have been in Syracuse for almost two years now <br> 
+                I have survived on my own in New York, I'm not sure how <br>
+                Fun times have been had, all while being in college <br>
+                Spending time with my friends and gaining lots of knowledge
+
+
+        <h2>This is one of my favorite quotes</h2>
+        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+        <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+                <p id = "quote"> <i>“Stepping in shit is inevitable, so let’s either see it as good luck or figure out how to do it less often"</i>
+                    <h3>Greenlights by Matthew McConaughey</h3> </p>
+
+
+        <h2>These are more of my favorite books</h2>
+        <!-- Include: an unordered list of at least three books, list items should have a border -->
+        <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section --> 
+            <div id = "books">
+            <ul>
+                <li> The Great Gatsby</li>
+                <li> Behold the Dreamers </li>
+                <li> Sylvester and the Magic Pebble </li>
+            </div>
+
+
+        <h2>Here's how I normally spend my weekend</h2>
+        <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) -->
+        <!-- Tags to use: <iframe> -->
+            <iframe title="Brooke leaves her homework until Sunday night." aria-label="Stacked Bars" id="datawrapper-chart-7EqCo" src="https://datawrapper.dwcdn.net/7EqCo/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="229" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+        <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+        <div id="bargraph">
+            <h4>Length of races</h4>
+            <p class="bar_label">Marathon: 26.2 Miles</p>
+            <div id="longest"></div>
+            <p class="bar_label">Half Marathon: 13.1 Miles</p>
+            <div id="longer"></div>
+            <p class="bar_label">5K: 3.1 Miles</p>
+            <div id="long"></div>
+        </div>
+     
+    </body>
+</html>
